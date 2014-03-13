@@ -1,0 +1,15 @@
+.formulaire{background-color:#5F9EA0;float:right;width:300;margin-top:5px;}
+                
+.logo{background-color:blue; float:left;width:300;margin-top:5px;}           
+table.catalogue tr:nth-child(odd){background-color:#EEF;}
+table.catalogue th{background-color:#EE0;}
+table.catalogue{width:100%}
+header, footer {background-color:#7FFFD4;background-image:url(images/DIAS.png);no-repeat left top;
+	 }
+#piedepage{position: absolute; bottom: 0px; text-align:center;width:100%; }
+#container {position: relative;min-height: 100%}
+html, body {height: 95%;background-color:#7FFFD4;}
+a{ color: #0066CC; text-decoration:none;} 
+/*a:visited         { color: red;  text-decoration:none; } /* et en noir (comme le texte normal, mais souligné) si déjà visités */
+a:hover, a:active { color: black;;     text-decoration:none;           /* Lors du passage de la souris ou activation, */
+                    /*background-color: #0066CC;*/ } /* couleur blanc sur fond bleu
